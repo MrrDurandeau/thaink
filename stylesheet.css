@@ -1,0 +1,213 @@
+/*Déclaration des polices*/
+@font-face {
+	font-family: Abel;
+	src: url('fonts/Abel-Regular.woff');
+}
+@font-face {
+	font-family: ROSEMERO;
+	src: url('fonts/ROSEMERO.woff');
+}
+@font-face {
+	font-family: Quantify;
+	src: url('fonts/Quantify.woff');
+}
+
+/*Mise en forme générale*/
+body {
+	margin: 0;
+	padding: 0;
+	margin-top: -1%;
+	background-color: rgb(241,245,248);
+	font-size: 150%;
+	text-align: justify;
+}
+
+header {
+	background-color: rgb(207,230,255);
+	padding-bottom: 0.5%;
+	padding-top: 0.5%;
+}
+
+main {
+	margin-left: 15%;
+	margin-right: 15%;
+	padding: 2%;
+	background-color: rgb(232,241,250);
+}
+
+footer {
+	background-color: rgb(207,230,255);
+	padding: 1%;
+}
+
+/*Mise en forme des ancres*/
+main a, footer a, main a:visited, footer a:visited {
+	color: rgb(0,60,160);
+}
+
+main a:hover, footer a:hover {
+	color: rgb(30,90,160);
+}
+
+/*Mise en forme des titres et paragraphes*/
+h1 {
+	color: rgb(0,60,254);
+	font-family: ROSEMERO;
+	font-size: 1.66em;
+	text-align: center;
+}
+
+h2 {
+	color: rgb(152,176,255);
+	font-family: Quantify;
+	font-size: 1.33em;
+	margin-left: 3%;
+}
+
+h4 {
+	color: rgb(152,176,255);
+	font-family: Quantify;
+	font-size: 1em;
+	margin-left: 3%
+}
+
+p {
+	color: black;
+	font-family: Abel;
+	font-size: 1em;
+	margin-left: 6%;
+}
+
+/*Mise en forme des tableaux*/
+table, th, td {
+	border: 2px solid rgb(0,60,160);
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 1.2%;
+	width: 1%;
+}
+
+th, h4 {
+	color: rgb(152,176,255);
+	font-family: Quantify;
+	font-size: 1em;
+}
+
+td {
+	color: black;
+	font-family: Abel;
+	font-size: 1em;
+}
+
+/*Mise en forme des listes*/
+li {
+	color: black;
+	font-family: Abel;
+	font-size: 1em;
+	margin-left: 6%
+}
+
+
+/*Mise en forme du haut de page*/
+#haut {
+	color: rgb(0,60,254);
+	margin-left: 1%;
+	margin-bottom:1.5%;
+}
+
+/*Mise en forme du menu de navigation*/
+nav h3 {
+	color: rgb(0,60,160);
+	margin-bottom: 2%;
+	margin-left: 3%
+}
+
+nav li {
+	display: inline;
+	padding: 0.7%;
+}
+
+/*Affichage des boutons cliquables*/
+nav a {
+	padding: 0.7%;
+	background-color: rgb(152,176,255);
+	border: 3px solid rgb(0,60,254);
+	color: rgb(0,60,160);
+	text-dsecoration: none;
+}
+
+nav a:hover {
+	background-color: rgb(217,226,255);
+}
+
+/*Affichage du bouton cliqué*/
+li>span {
+	padding: 0.7%;
+	background-color: rgb(232,241,250);
+	border: 3px solid rgb(0,60,254);
+	color: rgb(0,60,160);
+}
+
+
+/*Mise en forme du bas de page*/
+footer h3 {
+	color: rgb(0,60,254);
+	font-family: Quantify;
+	font-size: 1.33em;
+}
+
+footer li {
+	color: rgb(0,60,160)
+}
+
+#auteur {
+	color: rgb(0,60,254);
+}
+
+
+/*Mise en forme des images et vidéos*/
+div.imgbackground {
+	background-color: rgb(172,196,255);
+}
+
+img.topimg {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#servers {
+	float: right;
+	margin: 0.5em;
+}
+
+#robot {
+	float: left;
+	margin: 0.5em;
+	margin-bottom: -0.1em;
+	margin-left: 3em;
+	position: relative;
+	top: -0.5em;
+}
+
+#recruit {
+	float: right;
+	margin: 0.5em;
+}
+
+#data {
+	width: 800px;
+	height: 450px;
+	align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+iframe {
+	margin-left: 6%;
+}
